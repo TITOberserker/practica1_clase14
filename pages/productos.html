@@ -11,63 +11,138 @@
         <link href="../css/normalize.css" rel="stylesheet">
         <link rel="preload" href="../css/style.css" as="styles">
         <link href="../css/style.css" rel="stylesheet">   
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+        <link href="./css/normalize.css" rel="stylesheet">
+    
+        <link href="../css/style.css" rel="stylesheet">   
         <title>Productos - Arte Impreso</title>
     </head>
     
     <body>
 
         <header class="header"> <!-- Seccion 1 -->
+
+            
             <h1><span>Arte</span>Impreso</h1>
 
-            <nav class="navegacionPrincipal">
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="productos.html">Productos</a></li>
-                    <li><a href="nuestroTrabajo.html">Nuestro Trabajo</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                    <li><a href="cuenta.html">Mi cuenta</a></li>
-                
-                </ul>
-            </nav>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li></li><a class="nav-link" href="./index.html">Inicio</a></li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./productos.html">Productos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./nuestroTrabajo.html">Nuestro Trabajo</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./cuenta.html">Mi Cuenta</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
         </header>
 
-        <main class="contenedor"> <!-- Seccion 2 -->
-            <div class="imagenes">
-                <div class="cuadro">
-                    <img src="" alt="imagenen del cuadro">
-                    <p>Nombre del producto</p>
-                    <p>Precio del producto</p>
+         <section class="container">
+        <div class="row">
+            <div class="card col-3 mx-2"  >
+                <img src="../img-cuadros/cuadro1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
-                <div class="cuadro">
-                    <img src="" alt="imagenen del cuadro">
-                    <p>Nombre del producto</p>
-                    <p>Precio del producto</p>
+              </div>
+
+              <div class="card col-3 mx-2" >
+                <img src="../img-cuadros/cuadro2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
-                <div class="cuadro">
-                    <img src="" alt="imagenen del cuadro">
-                    <p>Nombre del producto</p>
-                    <p>Precio del producto</p>
+              </div>
+              <div class="card col-3 mx-2" >
+                <img src="../img-cuadros/cuadro3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
+              </div>
+        </div>
+    </section>
+    <p> </p>
+        <section class="container">  
+        <div class="row ">
+            <div class="card col-3 mx-2 " >
+                <img src="../img-cuadros/cuadro4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card col-3 mx-2" >
+                <img src="../img-cuadros/cuadro5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card col-3 mx-2" >
+                <img src="../img-cuadros/cuadro6.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+    </section>
+    <p> </p>
+        <section class="container">
+            <div class="row">
+              <div class="card col-3 mx-2" >
+                <img src="../img-cuadros/cuadro7.jpg"class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card col-3 mx-2" >
+                <img src="../img-cuadros/cuadro8.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card col-3 mx-2" >
+                <img src="../img-cuadros/cuadro9.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
             </div>
+       
+
+         </section>
             
-            <div class="imagenes">
-                <div class="cuadro">
-                    <img src="" alt="imagenen del cuadro">
-                    <p>Nombre del producto</p>
-                    <p>Precio del producto</p>
-                </div>
-                <div class="cuadro">
-                    <img src="" alt="imagenen del cuadro">
-                    <p>Nombre del producto</p>
-                    <p>Precio del producto</p>
-                </div>
-                <div class="cuadro">
-                    <img src="" alt="imagenen del cuadro">
-                    <p>Nombre del producto</p>
-                    <p>Precio del producto</p>
-                </div>
-            </div>
-        </main>
 
 
         <footer class="footer"> <!-- Seccion 3 -->
@@ -85,4 +160,6 @@
         </footer>
         
     </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </html>

@@ -10,47 +10,62 @@
         <link href="../css/normalize.css" rel="stylesheet">
         <link rel="preload" href="../css/style.css" as="styles">
         <link href="../css/style.css" rel="stylesheet"> 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link href="./css/normalize.css" rel="stylesheet">
+    
+        <link href="../css/style.css" rel="stylesheet">   
         <title>Contacto - Arte Impreso</title>
     </head>
     <body>
         <header class="header"> <!-- Seccion 1 -->
             <h1><span>Arte</span>Impreso</h1>
 
-            <nav class="navegacionPrincipal">
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="productos.html">Productos</a></li>
-                    <li><a href="nuestroTrabajo.html">Nuestro Trabajo</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                    <li><a href="cuenta.html">Mi cuenta</a></li>
-                
-                </ul>
-            </nav>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li></li><a class="nav-link" href="./index.html">Inicio</a></li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./productos.html">Productos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./nuestroTrabajo.html">Nuestro Trabajo</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./cuenta.html">Mi Cuenta</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
         </header>
 
         <section class="contenedor"> <!-- Seccion 2 -->
            <h2>Cuenta</h2>
+           <form action="">
 
-            <form action="">
-                <fieldset>
-                    <legend>Contactanos</legend>
-                    <div>
-                        <label for="nombre">Nombre <span>*</span></label>
-                        <input type="text" placeholder="Tu email" id="nombre">
-                    </div>
-                    <div>
-                        <label for="corre">Correo<span>*</span></label>
-                        <input type="email" placeholder="Tu email" id="correo">
-                    </div>
-
-                    <div>
-                        <label for="mensaje">Mensaje<span>*</span></label>
-                        <textarea name="" id="mensaje" cols="30" rows="10"></textarea>
-                    </div>
-
-                    <input class="boton" type="submit" value="Enviar">
-                </fieldset>
-            </form>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">nombre</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre">
+            </div>
+  
+             <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email </label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@gmail.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">mensajes</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <input class="boton" type="submit" value="Acceder">
+           </form>
+          
         </section>
 
         <footer class="footer"> <!-- Seccion 3 -->
@@ -68,4 +83,6 @@
         </footer>
 
     </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </html>
